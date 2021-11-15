@@ -1,31 +1,82 @@
 body {
     display: flex;
     flex-direction: column;
+    font-style: Roboto;
 }
 
 .nav-bar {
     background-color: #1F2937;
     color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav-bar-left {
+    align-self: center;
+}
+
+.nav-bar-right {
+    display: flex;
+    flex-direction: row;
 }
 
 .hero-container {
     background-color: #1F2937;
     color: white;
+    padding: 100px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
 }
 
 .information-container {
+    display: flex;
+    flex-direction: column;
+}
 
+.card-container {
+    display: flex;
+    padding: 2px 16px;
+}
+
+.card {
+    padding: 10px;
+    border: blue solid 2px;
 }
 
 .quote-container {
-
+    background-color: #e5e7eb;
 }
 
-.sign-in-container {
-
+.sign-up-container {
+    background-color: #3882f6;
 }
 
 .footer {
     background-color: #1F2937;
     color: white;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    padding-left: 16px;
+}
+
+#quote {
+    font-size: 38px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+#info-title {
+    align-self: center;
 }
