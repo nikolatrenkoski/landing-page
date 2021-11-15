@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-bar {
+    background-color: #1F2937;
+    color: white;
+}
+
+.hero-container {
+    background-color: #1F2937;
+    color: white;
+}
+
+.information-container {
+
+}
+
+.quote-container {
+
+}
+
+.sign-in-container {
+
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+}
