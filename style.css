@@ -12,22 +12,55 @@ body {
     color: white;
     display: flex;
     flex-direction: row;
+}
+
+.nav-bar-content {
+    display: flex;
+    width: 1540px;
+    align-self: center;
     justify-content: space-around;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .nav-bar-left {
     align-self: center;
+    width: 500px;
+}
+
+.nav-bar-left-header {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #f9FAF8;
 }
 
 .nav-bar-right {
     display: flex;
     flex-direction: row;
+    width: 500px;
 }
 
 .hero-container {
+    display: flex;
     background-color: #1F2937;
     color: white;
     padding: 150px;
+    justify-content: space-around;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.button-container-1 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.hero-right {
+    display: flex;
 }
 
 .hero-main-text {
@@ -39,6 +72,8 @@ body {
 .hero-sub-text {
     font-size: 18px;
     color: #e5e7eb;
+    margin-top: 9px;
+    margin-bottom: 12px;
 }
 
 .information-container {
@@ -58,16 +93,35 @@ body {
     display: flex;
     padding: 10px 16px;
     align-self: center;
+    justify-content: center;
     height: 150px;
+    width: 1000px;
 }
 
 .card {
+    width: 100px;
     padding: 20px;
     border: blue solid 2px;
-    margin: 6px;
+    margin-left: 12px;
+    margin-right: 12px;
     justify-items: space-around;
     border-radius: 25px;
 
+}
+
+.info-text {
+    display: flex;
+    justify-content: center;
+    width: 1032px;
+    align-self: center;
+}
+
+.info-text-p {
+    display: flex;
+    justify-content: space-between;
+    width: 144px;
+    margin-left: 12px;
+    margin-right: 12px;
 }
 
 .quote-container {
@@ -143,7 +197,16 @@ li {
     margin: auto;
 }
 
-#sign-up-button {
+.sign-up-button-1 {
+    color: white;
+    background-color: #3882f6;
+    font-weight: bolder;
+    padding: 10px 40px;
+    border: #3882f6 solid 2px;
+    border-radius: 5px;
+}
+
+.sign-up-button {
     color: white;
     background-color: #3882f6;
     font-weight: bolder;
